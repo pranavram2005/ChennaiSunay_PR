@@ -40,7 +40,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='/projects' element={<Projects SubCategories={SubCategories} Categories={Categories}/>}/>
+        <Route path='projects' element={<Projects SubCategories={SubCategories} Categories={Categories}/>}/>
       <Route index element={<View SubCategories={SubCategories} Categories={Categories}/>} />
       <Route path='admin' element={<Admin/>} />      
         <Route path="/" element={<Layout/>}>
